@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Refund & Cancellation Policy | Cognivara Academy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="brand" href="index.html" aria-label="Cognivara Academy home">
+<svg width="34" height="34" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1fb6ff"/><stop offset="1" stop-color="#a855f7"/></linearGradient></defs><path d="M33 9A15 15 0 1 0 33 31" fill="none" stroke="url(#lg)" stroke-width="7"/><path d="M15 20l16-6-7 14-2-6z" fill="url(#lg)"/></svg>
+<span>Cognivara<small>ACADEMY</small></span></a>
+<div class="links" id="links"><a href="index.html#programs">Programs</a><a href="index.html#mentors">Mentors</a><a href="case-studies.html">Case Studies</a><a href="index.html#faq">FAQ</a><a href="index.html#contact">Contact</a></div>
+<a class="btn sec" href="assets/Cognivara-Brochure.pdf" download>Download brochure</a>
+<button class="icon" id="theme" aria-label="Switch between dark and light theme">&#9681;</button>
+<button class="icon menu" id="menu" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+</nav></div></header>
+
+<main><section><div class="wrap legal">
+<a class="back" href="index.html">&larr; Back to home</a>
+<h1>Refund &amp; Cancellation Policy</h1>
+<p class="updated">Last updated: [Add date before publishing]</p>
+
+<p>Thank you for your interest in Cognivara Academy. Because our programs involve instructor time, live sessions, mentor availability, course materials and limited cohort capacity, please review this policy carefully before enrolling.</p>
+
+<h2>No-refund policy</h2>
+<p>Except where required by applicable law or expressly agreed by us in writing, fees paid for a program are non-refundable once enrollment is confirmed and access to the program has been provided or the program has commenced.</p>
+<p>Before making payment, please review the program curriculum, prerequisites, duration, schedule, fees, recording policy and support structure on the program page or in the brochure.</p>
+
+<h2>Schedule changes</h2>
+<p>If a scheduled session needs to change due to instructor availability, technical issues or other reasonable circumstances, an alternative session or a recording will be provided.</p>
+
+<h2>Cancellation by Cognivara</h2>
+<p>If we cancel a program before it begins and cannot offer an alternative batch, we will inform you of how your fee will be handled.</p>
+
+<h2>Transfer requests</h2>
+<p>Requests to transfer your enrollment to another batch are considered case by case, subject to availability.</p>
+
+<h2>Contact us</h2>
+<p>For any refund or cancellation query, write to us at <a href="mailto:roshansalunke91@gmail.com">roshansalunke91@gmail.com</a> or call <a href="tel:+919920011295">+91 99200 11295</a>.</p>
+
+<p style="margin-top:30px;font-size:.85rem">This is a draft policy template and not legal advice. Have it reviewed by a lawyer before you publish it or start collecting payments.</p>
+</div></section></main>
+
+<footer><div class="wrap">
+<div class="fgrid">
+<div><h4>Cognivara Academy</h4><p style="max-width:34ch">Live technology learning for the next generation of engineers.</p></div>
+<div><h4>Company</h4><a href="index.html#programs">Programs</a><a href="index.html#mentors">Mentors</a><a href="case-studies.html">Case Studies</a><a href="index.html#contact">Contact us</a></div>
+<div><h4>Support</h4><a href="index.html#faq">FAQs</a><a href="privacy-policy.html">Privacy Policy</a><a href="refund-policy.html">Refund Policy</a></div>
+</div>
+<div class="fbottom"><span>&copy; 2026 Cognivara Academy. Build. Learn. Engineer.</span><span>Placement assistance does not constitute a job guarantee.</span></div>
+</div></footer>
+<a class="wa" href="https://wa.me/919920011295?text=Hi%20Cognivara%2C%20I%20want%20to%20know%20more%20about%20your%20programs" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+
+<script>
+(function(){
+var root=document.documentElement;function store(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){return null}}
+var saved=store('cg_theme');if(saved)root.dataset.theme=saved;else if(matchMedia('(prefers-color-scheme: light)').matches)root.dataset.theme='light';
+document.getElementById('theme').onclick=function(){var t=root.dataset.theme==='dark'?'light':'dark';root.dataset.theme=t;store('cg_theme',t)};
+var links=document.getElementById('links'),menu=document.getElementById('menu');
+menu.onclick=function(){var o=links.classList.toggle('open');menu.setAttribute('aria-expanded',o)};
+links.onclick=function(){links.classList.remove('open');menu.setAttribute('aria-expanded',false)};
+})();
+</script>
+</body>
+</html>

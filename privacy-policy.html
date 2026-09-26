@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | Cognivara Academy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="brand" href="index.html" aria-label="Cognivara Academy home">
+<svg width="34" height="34" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1fb6ff"/><stop offset="1" stop-color="#a855f7"/></linearGradient></defs><path d="M33 9A15 15 0 1 0 33 31" fill="none" stroke="url(#lg)" stroke-width="7"/><path d="M15 20l16-6-7 14-2-6z" fill="url(#lg)"/></svg>
+<span>Cognivara<small>ACADEMY</small></span></a>
+<div class="links" id="links"><a href="index.html#programs">Programs</a><a href="index.html#mentors">Mentors</a><a href="case-studies.html">Case Studies</a><a href="index.html#faq">FAQ</a><a href="index.html#contact">Contact</a></div>
+<a class="btn sec" href="assets/Cognivara-Brochure.pdf" download>Download brochure</a>
+<button class="icon" id="theme" aria-label="Switch between dark and light theme">&#9681;</button>
+<button class="icon menu" id="menu" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+</nav></div></header>
+
+<main><section><div class="wrap legal">
+<a class="back" href="index.html">&larr; Back to home</a>
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: [01-10-2026]</p>
+
+<p>Cognivara Academy respects your privacy. This page explains what personal information we collect, why we collect it, and how it is used when you visit this website, enquire about a program, or enroll.</p>
+
+<h2>Information we collect</h2>
+<ul>
+<li>Name, email address and phone number</li>
+<li>Professional or educational background, and program interest</li>
+<li>Enquiry and message content you submit through our contact form</li>
+<li>Payment and enrollment information, where applicable</li>
+<li>Attendance, assignment and project information for enrolled learners</li>
+</ul>
+
+<h2>How we use it</h2>
+<ul>
+<li>To respond to enquiries and share program details</li>
+<li>To process enrollment and provide access to a program</li>
+<li>To communicate schedules, updates and support</li>
+<li>To provide career and placement assistance</li>
+<li>To meet legal and regulatory requirements</li>
+</ul>
+
+<h2>Live session recordings</h2>
+<p>Live classes may be recorded for educational and administrative purposes and shared with enrolled learners for revision or missed-session access. Please avoid sharing sensitive personal information during live sessions.</p>
+
+<h2>Sharing of information</h2>
+<p>We may share information with trusted service providers who support functions such as payments, video conferencing, email and website hosting. We do not sell your personal information.</p>
+
+<h2>Data security and retention</h2>
+<p>We take reasonable steps to protect your information, though no online system can be guaranteed completely secure. We retain information only as long as reasonably necessary for the purposes described above.</p>
+
+<h2>Your rights</h2>
+<p>Subject to applicable law, you may have rights to access, correct or request deletion of your personal information, and to withdraw consent where consent is the basis for processing. To make a request, contact us at <a href="mailto:roshansalunke91@gmail.com">roshansalunke91@gmail.com</a>.</p>
+
+<h2>Changes to this policy</h2>
+<p>We may update this policy from time to time. The latest version will always be published on this page.</p>
+
+<p style="margin-top:30px;font-size:.85rem">This is a draft policy template and not legal advice. Have it reviewed by a lawyer before you publish it or start collecting payments.</p>
+</div></section></main>
+
+<footer><div class="wrap">
+<div class="fgrid">
+<div><h4>Cognivara Academy</h4><p style="max-width:34ch">Live technology learning for the next generation of engineers.</p></div>
+<div><h4>Company</h4><a href="index.html#programs">Programs</a><a href="index.html#mentors">Mentors</a><a href="case-studies.html">Case Studies</a><a href="index.html#contact">Contact us</a></div>
+<div><h4>Support</h4><a href="index.html#faq">FAQs</a><a href="privacy-policy.html">Privacy Policy</a><a href="refund-policy.html">Refund Policy</a></div>
+</div>
+<div class="fbottom"><span>&copy; 2026 Cognivara Academy. Build. Learn. Engineer.</span><span>Placement assistance does not constitute a job guarantee.</span></div>
+</div></footer>
+<a class="wa" href="https://wa.me/919920011295?text=Hi%20Cognivara%2C%20I%20want%20to%20know%20more%20about%20your%20programs" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+
+<script>
+(function(){
+var root=document.documentElement;function store(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){return null}}
+var saved=store('cg_theme');if(saved)root.dataset.theme=saved;else if(matchMedia('(prefers-color-scheme: light)').matches)root.dataset.theme='light';
+document.getElementById('theme').onclick=function(){var t=root.dataset.theme==='dark'?'light':'dark';root.dataset.theme=t;store('cg_theme',t)};
+var links=document.getElementById('links'),menu=document.getElementById('menu');
+menu.onclick=function(){var o=links.classList.toggle('open');menu.setAttribute('aria-expanded',o)};
+links.onclick=function(){links.classList.remove('open');menu.setAttribute('aria-expanded',false)};
+})();
+</script>
+</body>
+</html>
